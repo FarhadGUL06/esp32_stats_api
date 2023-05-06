@@ -1,8 +1,5 @@
 # ESP32 Stats API Downloader
 
-
-* Description
-
 Platform: Python Flask
 
 Release Date: 17.04.2023
@@ -15,7 +12,7 @@ updated by my Adafruit QT Py ESP32-C3 using
   - LTR308: Ambient Light Sensor
 
 
-* API Call
+# API Call
 
 At this time, this API is locally hosted on port 5001
 
@@ -49,7 +46,7 @@ The API Key can be stored in .env file of the project. You must create your own 
 API_KEY="api_test"
 ```
 
-* Used resources
+# Used resources
 
 1. https://pythonbasics.org/flask-rest-api/
 
