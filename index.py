@@ -50,7 +50,7 @@ try:
             f = open("bme_stats.txt", "r")
             payload = f.read()
             f.close()
-            return jsonify({'success': payload})
+            return jsonify({'content': payload})
         except Exception as e:
             return jsonify({'error': str(e)})
         
@@ -89,7 +89,7 @@ try:
             f = open("bmi_stats.txt", "r")
             payload = f.read()
             f.close()
-            return jsonify({'success': payload})
+            return jsonify({'content': payload})
         except Exception as e:
             return jsonify({'error': str(e)})
         
@@ -128,7 +128,7 @@ try:
             f = open("ltr_stats.txt", "r")
             payload = f.read()
             f.close()
-            return jsonify({'success': payload})
+            return jsonify({'content': payload})
         except Exception as e:
             return jsonify({'error': str(e)})
 
